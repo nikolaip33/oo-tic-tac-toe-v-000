@@ -80,7 +80,7 @@ class TicTacToe
   end
 
   def winner
-      @board[won?.first]
+      if combo = won? then @board[combo.first] end
   end
 
 end
