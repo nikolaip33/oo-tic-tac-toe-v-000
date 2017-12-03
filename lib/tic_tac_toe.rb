@@ -80,7 +80,7 @@ class TicTacToe
   end
 
   def winner
-      combo = won? ? @board[combo.first] : nil
+      @board[won?.first]
   end
 
 end
