@@ -65,7 +65,6 @@ class TicTacToe
 
   def won?
     WIN_COMBINATIONS.detect { |c| @board[c[0]] == @board[c[1]] && @board[combo[1]] == @board[c[2]] && position_taken?(c[0]) }
-
   end
 
   def draw?
